@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="input-section">
+            <input type="text" id="todoInput" placeholder="Enter a task...">
+            <button onclick="addTodo()">Add</button>
+        </div>
+        <ul id="todoList"></ul>
+        <div id="footer">
+            <p id="totalTasks"></p>
+            <button id="clearCompleted" onclick="clearCompleted()">Clear Completed</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
